@@ -1,0 +1,196 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    font-size: 100%;
+    color: white;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+html{
+    min-height: 100%;
+}
+
+.banner{
+	width: 100%;
+	height: auto;
+	display: inline;
+    font: candara;
+	
+}
+
+body {
+    background-image: url("../img/main_bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+body{
+    background-color: white;
+}
+
+body div {
+	padding: 0px 6px 6px 6px;
+}
+
+#style{
+    float: right;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: yellowgreen;
+}
+h2{
+    font-size: 20px;
+    font-weight: bold;
+    color: purple;
+}
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: purple;
+}
+
+h1, h2, h3 {
+    text-shadow: #FFF 0px 0px 2px;
+    -webkit-font-smoothing: antialiased;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    display: inline;
+    color: white;
+}
+
+nav ul li {
+	background: #000;
+	background-position: fixed;
+	clear: both;
+	display: inline;
+	padding: 0px 10px 0px 5px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+	
+}
+
+p {
+
+    overflow: auto;
+    text-align: left;
+    margin: 20px 0;
+    background-color: rgba(255, 255, 255, 0.45);
+	background-position: center;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+	padding:  10px;
+}
+
+.textbg {
+    overflow: none;
+    text-align: left;
+    margin: 20px 0px;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-position: center;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    padding: 20px 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer {
+    margin: auto;
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #383838;
+    color: #cccccc;
+    text-align: center;
+	padding: 10px;
+}
+
+.ulstyle li a {
+    line-height: 50px;
+    vertical-align: middle;
+    color: white;
+    text-align: center;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+@media screen only and (max-width: 1366px) {
+    .mainbox {
+        width: 80%;
+    }
+
+    .banner {
+        width: 80%;
+    }
+
+    .ulstyle {
+        width: 80%;
+    }
+}
+
+.text {
+	background-position: center;
+    padding:  0px 10px 30px 10px;
+    text-shadow: .01px .01px .01px #555;
+}
+
+.border {
+    margin: none;
+    padding: 10px 10px 10px 10px;
+}
+.text-warning, .text-success, .text-danger {
+    text-shadow: .5px .5px .5px #000;
+   
+}
+
+.row {
+    padding: 0px 10px 0px 10px;
+}
+
+.navbar, .btn-dark, .dropdown-menu {
+    background-color: #383838;
+}
+
+.btn.btn-dark{
+    background-color: #505050;
+}
+
+.strokeme{
+    color:white;
+    text-shadow: -1px -1px 0 #000,  1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
