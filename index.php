@@ -47,6 +47,7 @@ $numNews = count($news_system);
 					<a class="nav-link" href="../about.php">About</a>
 				</li>
 			-->
+			
 			<li class="nav-item btn-dark">
 				<a class="nav-link" href="../rankings.php">Rankings</a>
 			</li>
