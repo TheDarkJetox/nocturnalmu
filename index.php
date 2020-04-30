@@ -40,7 +40,7 @@ $numNews = count($news_system);
 		<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
 			<ul class="navbar-nav">
 				<li class="nav-item btn-dark">
-					<a class="nav-link active" href="../">News</a>
+					<a class="nav-link active" href="../" title="See what's new!">News</a>
 				</li>
 				<!--
 				<li class="nav-item btn-dark">
@@ -49,16 +49,16 @@ $numNews = count($news_system);
 			-->
 			
 			<li class="nav-item btn-dark">
-				<a class="nav-link" href="../rankings.php">Rankings</a>
+				<a class="nav-link" href="../rankings.php" title="See who's at the top">Rankings</a>
 			</li>
 			<li class="nav-item btn-dark">
-				<a class="nav-link" href="../downloads.php">Downloads</a>
+				<a class="nav-link" href="../downloads.php" title="Download the game to play!">Downloads</a>
 			</li>
 			<li class="nav-item btn-dark">
-				<a class="nav-link" href="../staff.php">Staff List</a>
+				<a class="nav-link" href="../staff.php" title="See who's running this joint.">Staff List</a>
 			</li>
 			<li class="nav-item btn-dark">
-				<a class="nav-link" href="../forum.php">Forums</a>
+				<a class="nav-link" href="../forum.php" title="Wondering about something?">Forums</a>
 			</li>
 			<li class="nav-item dropdown btn-dark">
 				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -101,7 +101,7 @@ $numNews = count($news_system);
 		<div class="row">
 			<div class="col-sm-8 border border-dark textbg">
 				<h1>
-					<center><a href="../"><img src="../img/logo.png" width="50%" /></a></center>
+					<center><a href="../" title="Main page"><img src="../img/logo.png" width="50%" /></a></center>
 				</h1>
 			</div>
 			<div class="col-sm-1"></div>
@@ -119,7 +119,7 @@ $numNews = count($news_system);
 				<span style='float:left;'>Total Characters:</span> <span style='float:right;'><font color="yellowgreen"><?=$tchar?></font></span><br>
 
 				<span style='float:left;'>Total Guilds:</span> <span style='float:right;'><font color="yellowgreen"><?=$guilds?></font></span><br>
-				<span style='float:left;'><a class="text-white" href="../online.php">Connected:</span> <span style='float:right;'><font color="yellowgreen"><?=$numOnline?></font></a></span><br>
+				<span style='float:left;'><a class="text-white" href="../online.php" title="See who's online!">Connected:</span> <span style='float:right;'><font color="yellowgreen"><?=$numOnline?></font></a></span><br>
 				<span style='float:left;'>Server Status:</span> <span style='float:right;'><?php echo($status); ?></span><br>
 			</div>
 		</div>
@@ -136,7 +136,7 @@ $numNews = count($news_system);
 					<?php } ?>
 						<h3><?=$news_system[$i]['Title'] ?> :</h3>
 						<?=$news_system[$i]['Content'] ?>
-						<br><br>Posted by <?php echo "<a class='text-white' href='../account/profile.php?user=".$news_system[$i]['Publisher']."'>".$news_system[$i]['Publisher']."</a>"; ?>, on <?=$newDate ?>
+						<br><br>Posted by <?php echo "<a class='text-white' href='../account/profile.php?user=".$news_system[$i]['Publisher']."' title='Go to ".$news_system[$i]['Publisher']."s profile'>".$news_system[$i]['Publisher']."</a>"; ?>, on <?=$newDate ?>
 					</div>
 					<?php if(isset($_SESSION['username']) == 'TheDarkJetox'){ ?> 
 					<div class="col-sm-2 border text-white">
