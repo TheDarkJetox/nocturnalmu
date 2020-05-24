@@ -135,11 +135,11 @@ $numNews = count($news_system);
 				</div>
 				<div class="row">
 					<div class="col-sm-5 border btn text-white">
-						<a target="_blank" class="text-white" href="https://mega.nz/file/k5sDESxC#H8ExKAsd-NpTgM6J3saBePdWGkEMMKQsBquOacmf9Q0"><img src="../img/mega.png" width="30%" /></a>
+						<a target="_blank" class="text-white" href="https://mega.nz/file/og1TjQqB#wAZ8AF_XEr03tOEJWMgNxPVWPhA09-i-Si1v4tY9Mgk"><img src="../img/mega.png" width="30%" /></a>
 					</div>
 					<div class="col-sm-2"></div>
 					<div class="col-sm-5 border btn text-white">
-						<a target="_blank" class="text-white" href="https://mega.nz/file/At8HgKwK#Y88TZXk1vd93zGWdkj8wSMEBgysDcmxvGKaTnKnRzSc"><img src="../img/mega.png" width="30%" /></a>
+						<a target="_blank" class="text-white" href="https://mega.nz/file/s49XAAjL#PV1vdUcaCJb7CrNbLVNujRVWOcMgd_FL4YOCgGKpBbA"><img src="../img/mega.png" width="30%" /></a>
 					</div>
 				</div>
 				<div class="row">
