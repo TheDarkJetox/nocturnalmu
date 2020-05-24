@@ -34,6 +34,9 @@ if (!empty($_POST['username'])) {
 		exit();
 	}
 }
+if(!empty($_SESSION['username'])){
+	header("Location: ../account/index.php");
+}
 
 //$_SESSION['username'] = 'TheDarkJetox';
 //$_SESSION['user_id'] = 'random';
