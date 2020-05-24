@@ -11,7 +11,7 @@ $numOnline = count($online);
 $news_system = $connect->query('SELECT Title,Content,Publisher,tDate,NewsID FROM news_system ORDER BY tDate desc, Title asc')->fetchAll(PDO::FETCH_ASSOC);
 $numNews = count($news_system);
 
-if (isset($_SESSION['username'])&&isset($_SESSION['user_id'])) {
+if (!isset($_SESSION['username'])&&!isset($_SESSION['user_id'])) {
 	header("Location: ../account/login.php");
 	exit();
 }
